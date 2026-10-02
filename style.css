@@ -97,3 +97,25 @@ section {
 .project p {
   margin: 8px 0;
 }
+
+/* Contact Section */
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+input,
+textarea {
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid #f5f5f5;
+}
+button {
+  border: none;
+  border-radius: 8px;
+  padding: 16px;
+  background-color: #e1613c;
+}
