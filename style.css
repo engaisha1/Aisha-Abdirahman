@@ -119,3 +119,9 @@ button {
   padding: 16px;
   background-color: #e1613c;
 }
+
+/* Footer Section */
+footer {
+  text-align: center;
+  padding: 1rem;
+}
