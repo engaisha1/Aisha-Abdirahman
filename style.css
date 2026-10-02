@@ -10,7 +10,8 @@ body {
 }
 
 h1,
-h2 {
+h2,
+h3 {
   font-family: "Bricolage Grotesque", sans-serif;
 }
 
@@ -77,4 +78,22 @@ section {
   border: 1px solid #f5f5f5;
   padding: 16px 24px;
   border-radius: 8px;
+}
+
+/* Projects Section */
+
+.project-list {
+  display: flex;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.project {
+  border: 1px solid #f5f5f5;
+  padding: 24px;
+  border-radius: 8px;
+}
+
+.project p {
+  margin: 8px 0;
 }
